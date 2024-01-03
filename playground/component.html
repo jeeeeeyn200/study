@@ -9,6 +9,8 @@
     <div id="app">
         <app-header></app-header>
         <app-content></app-content>
+        <app-footer></app-footer>
+
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script>
@@ -21,7 +23,13 @@
             template: '<div>Body</div>'
         });
         new Vue({
-            el: '#app'
+            el: '#app',
+            components: {
+                //'이름': 내용
+                'app-footer': {
+                    template: '<footer>FOOTER</footer>'
+                }
+            }
         });
 
     </script>
