@@ -8,7 +8,7 @@
 <body>
     <div id="app">
         <app-header></app-header>
-        <app-component></app-component>
+        <app-content></app-content>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script>
@@ -17,8 +17,8 @@
         Vue.component('app-header',{
             template: '<h1>Header</h1>'
         });
-        Vue.component('app-component',{
-            template: '<h3>Body</h3>'
+        Vue.component('app-content',{
+            template: '<div>Body</div>'
         });
         new Vue({
             el: '#app'
