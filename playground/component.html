@@ -12,6 +12,14 @@
         <app-footer></app-footer>
 
     </div>
+
+    <div id="app2">
+        <app-header></app-header>
+        <app-footer></app-footer>
+        
+
+    </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script>
         //전역 컴포넌트
@@ -26,11 +34,16 @@
             el: '#app',
             components: {
                 //'이름': 내용
-                'app-footer': {
+                'app-footer': {     //지역컴포넌트
                     template: '<footer>FOOTER</footer>'
                 }
             }
         });
+
+        new Vue({
+            el: '#app2'
+        })
+
 
     </script>
 </body>
