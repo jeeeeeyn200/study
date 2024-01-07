@@ -17,15 +17,12 @@
     <script>
 
         var appHeader = {
-            template : '<h1>Header</h1>',
+            //template : '<h1>Header</h1>',
+            template: '<h1>{{ propsdata }}</h1>',
             props : ['propsdata']
 
         }
-        var appContent = {
-            template : '<div>Body Content</div>',
-            props : ['propsdata']
-
-        }
+        
         new Vue({
             el : '#app',
             components : {
