@@ -14,6 +14,13 @@
         <div v-if="loading">
             Loading...
         </div>
+        
+        <!-- 인풋박스를 만들고 입력된 값을 p태그에 출력 -->
+        <input type="text" v-model="test"/>
+        <p>{{ test }}</p>
+        <p>Message is: {{ message }}</p>
+        <input v-model="message" placeholder="edit me" />
+
         <div v-else>
             test user has been logged in
         </div>
@@ -31,6 +38,8 @@
                 uuid: 'abc1234',
                 name: 'text-blue',
                 loading: true,
+                message : '',
+                test: ''
             },
             computed: {
                 doubleNum : function(){
