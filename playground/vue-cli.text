@@ -4,3 +4,5 @@ vue init webpack-simple '프로젝트 폴더 위치'
 
 Vue CLI 3v  
 vue create '프로젝트 폴더 위치'
+
+vue create vue-cli
