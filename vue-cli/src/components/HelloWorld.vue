@@ -32,9 +32,10 @@
 
 <script>
 export default {
+  //인스턴스 옵션 속성
   name: 'HelloWorld',
   props: {
-    msg: String
+    msg: String //타입 정의
   }
 }
 </script>
