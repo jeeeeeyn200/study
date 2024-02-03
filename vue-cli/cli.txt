@@ -1,2 +1,10 @@
 vue-cli-service serve
 npm run serve
+
+
+
+------------
+
+vue create vue-form
+cd vue-form
+npm run serve
