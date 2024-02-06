@@ -29,6 +29,8 @@
         console.log(this.username, this.password);
       }
     },
+
+    //npm i axios
   }
 </script>
 
