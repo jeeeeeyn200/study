@@ -15,6 +15,8 @@
 </template>
 
 <script>
+  import axios from 'axios';
+
   export default {
     data: function() {
       return {
@@ -27,6 +29,7 @@
         //e.preventDefault();
         
         console.log(this.username, this.password);
+        axios.post();
       }
     },
 
