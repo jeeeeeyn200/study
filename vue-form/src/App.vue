@@ -16,6 +16,10 @@
 
 <script>
   import axios from 'axios';
+  //create : post
+  //read : get
+  //update : put  
+  //delete : delete
 
   export default {
     data: function() {
